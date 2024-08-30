@@ -37,6 +37,9 @@ section#login {
     border-radius: 20px;
     overflow: hidden; /*Este é para a imagem ter o mesmo formato de arredondamento, tipo recortando o que esta fora do arredondamento*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease; /*vai dar uma suavizada durante a animação*/
 }
 
 section#login > div#imagem {
